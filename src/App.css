@@ -12,8 +12,8 @@ body {
 
 /* Style the header/navbar */
 .navbar {
-  background-color: #0074c2;
-  color: white;
+  background-color: black;
+  color: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +22,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: red;
   margin: 0 15px;
 }
 
@@ -44,7 +44,7 @@ body {
 
 /* Style the main content sections */
 .blue-section {
-  background-color: #0074c2;
+  background-color: black;
   color: white;
   padding: 40px;
   margin: 20px 0;
@@ -59,8 +59,8 @@ body {
 
 /* Style the footer */
 footer {
-  background-color: #0074c2;
-  color: white;
+  background-color: white;
+  color: #333;
   text-align: center;
   padding: 10px 0;
 }
@@ -80,4 +80,7 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+main {
+  padding-top: 150px; /* Adjust as needed to match the navbar's height */
 }

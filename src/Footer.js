@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="blue-section">
-      <p>&copy; 2023 Your Company. All rights reserved.</p>
+      <p>&copy; Contact us: director@boxproject.org </p>
     </footer>
   );
 }
