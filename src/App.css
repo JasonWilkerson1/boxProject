@@ -1,38 +1,83 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and style to the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Style the header/navbar */
+.navbar {
+  background-color: #0074c2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+}
+
+/* Style the logo images */
+.navbar img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Style the navigation links */
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+/* Style the main content sections */
+.blue-section {
+  background-color: #0074c2;
+  color: white;
+  padding: 40px;
+  margin: 20px 0;
+}
+
+.white-section {
+  background-color: white;
+  color: #333;
+  padding: 40px;
+  margin: 20px 0;
+}
+
+/* Style the footer */
+footer {
+  background-color: #0074c2;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Center the h1 and p elements in sections */
+h1, p {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Center the header text in sections */
+h1 {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Adjust spacing around images */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
