@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'; // Import Link
 
 import './Header.css';
 import twitterLogo from './Fb.png';
-import instagramLogo from './Instagram.png';
+import instagramLogo from './Inst agram.png';
 import youtubeLogo from './youtube-logo.png';
 import boxProjectImage from './BoxProject.jpg';
 
@@ -11,11 +11,13 @@ function Header() {
   return (
     <header className="navbar">
       <div className="logo">
-        <img
-          src={boxProjectImage}
-          alt="BoxProject Logo"
-          style={{ width: '125px', height: '100px' }}
-        />
+      <Link to="/"> {/* Link to the root URL */}
+          <img
+            src={boxProjectImage}
+            alt="BoxProject Logo"
+            style={{ width: '125px', height: '100px' }}
+          />
+        </Link>
         <a href="https://www.facebook.com/TBP1962/">
           <img src={twitterLogo} alt="Twitter Logo" />
         </a>
